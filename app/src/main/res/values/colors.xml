@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="neobrutalism_yellow">#FFD93D</color>
+    <color name="neobrutalism_pink">#FF6B9D</color>
+    <color name="neobrutalism_blue">#4D96FF</color>
+    <color name="neobrutalism_green">#6BCB77</color>
+    <color name="neobrutalism_orange">#FF9F45</color>
+    <color name="neobrutalism_purple">#B08BFF</color>
+    <color name="neobrutalism_red">#FF4444</color>
+
+    <color name="neobrutalism_background">#FFFDF5</color>
+    <color name="neobrutalism_surface">#FFFFFF</color>
+    <color name="neobrutalism_text">#111111</color>
+    <color name="neobrutalism_border">#111111</color>
+    <color name="neobrutalism_border_light">#CCCCCC</color>
+
+    <color name="neobrutalism_dark_background">#1A1A2E</color>
+    <color name="neobrutalism_dark_surface">#16213E</color>
+    <color name="neobrutalism_dark_text">#FFFFFF</color>
+    <color name="neobrutalism_dark_border">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

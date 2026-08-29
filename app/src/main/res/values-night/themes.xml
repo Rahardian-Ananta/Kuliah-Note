@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KuliahNote" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/neobrutalism_blue</item>
+        <item name="colorPrimaryContainer">@color/neobrutalism_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/neobrutalism_pink</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/neobrutalism_dark_background</item>
+        <item name="colorSurface">@color/neobrutalism_dark_surface</item>
+        <item name="colorOnSurface">@color/neobrutalism_dark_text</item>
+        <item name="android:statusBarColor">@color/neobrutalism_dark_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/neobrutalism_dark_background</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kuliah-Note</string>
+    <string name="home">Home</string>
+    <string name="courses">Mata Kuliah</string>
+    <string name="search">Cari</string>
+    <string name="ai">AI</string>
+    <string name="settings">Pengaturan</string>
+    <string name="add_course">Tambah Mata Kuliah</string>
+    <string name="add_note">Tambah Catatan</string>
+    <string name="add_week">Tambah Minggu</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Hapus</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="search_hint">Cari catatan...</string>
+    <string name="no_courses">Belum ada mata kuliah</string>
+    <string name="no_notes">Belum ada catatan</string>
+    <string name="semester">Semester</string>
+    <string name="week_minggu">Minggu %d</string>
+    <string name="notes_count">%d catatan</string>
+    <string name="ai_placeholder">AI Assistant akan tersedia di Phase 5</string>
+    <string name="welcome_message">Halo! 👋</string>
+    <string name="today_summary">Ringkasan Hari Ini</string>
+    <string name="active_tasks">Tugas Aktif</string>
+    <string name="course_progress">Progress Mata Kuliah</string>
+</resources>

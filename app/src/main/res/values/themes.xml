@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KuliahNote" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/neobrutalism_blue</item>
+        <item name="colorPrimaryContainer">@color/neobrutalism_yellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/neobrutalism_pink</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/neobrutalism_background</item>
+        <item name="colorSurface">@color/neobrutalism_surface</item>
+        <item name="colorOnSurface">@color/neobrutalism_text</item>
+        <item name="android:statusBarColor">@color/neobrutalism_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/neobrutalism_background</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="NeobrutalismCard">
+        <item name="android:background">@drawable/neobrutal_card_bg</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="NeobrutalismButton" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/neobrutal_button_bg</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+
+    <style name="NeobrutalismButtonBlue">
+        <item name="android:background">@drawable/neobrutal_button_blue_bg</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="NeobrutalismButtonPink">
+        <item name="android:background">@drawable/neobrutal_button_pink_bg</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="NeobrutalismEditText" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:background">@drawable/neobrutal_edittext_bg</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

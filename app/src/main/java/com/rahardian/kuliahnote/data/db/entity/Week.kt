@@ -1,0 +1,25 @@
+package com.rahardian.kuliahnote.data.db.entity
+
+import androidx.room.Entity
+import androidx.room.ForeignKey
+import androidx.room.Index
+import androidx.room.PrimaryKey
+
+@Entity(
+    tableName = "weeks",
+    foreignKeys = [
+        ForeignKey(
+            entity = Course::class,
+            parentColumns = ["id"],
+            childColumns = ["courseId"],
+            onDelete = ForeignKey.CASCADE
+        )
+    ],
+    indices = [Index("courseId")]
+)
+data class Week(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val courseId: Long,
+    val weekNumber: Int,
+    val title: String = ""
+)

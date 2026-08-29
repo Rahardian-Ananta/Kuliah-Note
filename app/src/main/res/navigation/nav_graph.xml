@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.rahardian.kuliahnote.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/courseListFragment"
+        android:name="com.rahardian.kuliahnote.ui.courses.CourseListFragment"
+        android:label="Mata Kuliah"
+        tools:layout="@layout/fragment_course_list" />
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.rahardian.kuliahnote.ui.search.SearchFragment"
+        android:label="Cari"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/aiFragment"
+        android:name="com.rahardian.kuliahnote.ui.ai.AiFragment"
+        android:label="AI"
+        tools:layout="@layout/fragment_ai" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.rahardian.kuliahnote.ui.settings.SettingsFragment"
+        android:label="Pengaturan"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/courseDetailFragment"
+        android:name="com.rahardian.kuliahnote.ui.courses.CourseDetailFragment"
+        android:label="Detail Mata Kuliah"
+        tools:layout="@layout/fragment_course_detail">
+        <argument
+            android:name="courseId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editorFragment"
+        android:name="com.rahardian.kuliahnote.ui.editor.EditorFragment"
+        android:label="Editor"
+        tools:layout="@layout/fragment_editor">
+        <argument
+            android:name="noteId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+        <argument
+            android:name="weekId"
+            app:argType="long" />
+    </fragment>
+
+</navigation>
